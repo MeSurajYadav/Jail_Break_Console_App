@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jail_Break_Console_App", "Jail_Break_Console_App\Jail_Break_Console_App.csproj", "{75D7BB48-0E46-4E21-883E-7DE94EC5E0AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UT_Jail_Break_Console_App", "UT_Jail_Break_Console_App\UT_Jail_Break_Console_App.csproj", "{3D29C0E0-C247-4EC1-8650-0D3182028C8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{75D7BB48-0E46-4E21-883E-7DE94EC5E0AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75D7BB48-0E46-4E21-883E-7DE94EC5E0AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75D7BB48-0E46-4E21-883E-7DE94EC5E0AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D29C0E0-C247-4EC1-8650-0D3182028C8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D29C0E0-C247-4EC1-8650-0D3182028C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D29C0E0-C247-4EC1-8650-0D3182028C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D29C0E0-C247-4EC1-8650-0D3182028C8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
