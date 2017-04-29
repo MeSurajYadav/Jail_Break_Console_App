@@ -12,14 +12,14 @@ namespace UT_Jail_Break_Console_App
         {
             //Arrange
             int jumpCapacity = 10;
-            int slipingCount = 1;
+            int slippingCount = 1;
             int wallsCount = 1;
             int[] heightsOfWalls = new int[] { 10 };
 
             int jumpCount = 0;
 
             //Act
-            jumpCount = Program.GetJumpCount(jumpCapacity, slipingCount, wallsCount, heightsOfWalls);
+            jumpCount = Program.GetJumpCount(jumpCapacity, slippingCount, wallsCount, heightsOfWalls);
 
             //Assert
             Assert.AreEqual(1, jumpCount);
@@ -31,14 +31,14 @@ namespace UT_Jail_Break_Console_App
         {
             //Arrange
             int jumpCapacity = 5;
-            int slipingCount = 1;
+            int slippingCount = 1;
             int wallsCount = 2;
             int[] heightsOfWalls = new int[] { 9, 10 };
 
             int jumpCount = 0;
 
             //Act
-            jumpCount = Program.GetJumpCount(jumpCapacity, slipingCount, wallsCount, heightsOfWalls);
+            jumpCount = Program.GetJumpCount(jumpCapacity, slippingCount, wallsCount, heightsOfWalls);
 
             //Assert
             Assert.AreEqual(5, jumpCount);
