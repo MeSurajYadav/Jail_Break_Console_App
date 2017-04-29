@@ -55,14 +55,14 @@ namespace Jail_Break_Console_App
             }
 
             int jumpCount = 0;
-            ////////////////
+            //Core Logic//
             foreach (var heightOfWall in heightsOfWalls)
             {
                 int localJumpCount = GetWallJumpCount(jumpCapacity, slippingCount, heightOfWall);
 
                 jumpCount += localJumpCount;
             }
-            ///////////////
+            //Core Logic Ends Here
             return jumpCount;
         }
 
